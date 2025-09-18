@@ -22,6 +22,18 @@
                             j++;
                         } while (j <= 8); // Move 8 casas para a esquerda
 
+        printf("\n"); // Pula uma linha para separar o movimento das peças
+        
+        printf("Cavalo\n"); //Movimento do Cavalo
+                int movimentoCompleto = 1; //flag para controlar o movimento em 'L'
+
+                        while (movimentoCompleto--)
+            {
+                        for (int i = 0; i < 2; i++) {
+                        printf("Cima\n");  //imprime cima duas vezes
+                }
+            printf("Direita\n");  //imprime direita uma vez
+            }
                     printf("\n"); //Pula uma linha
 
                     printf("\nFim dos Movimentos\n");  //Fim dos movimentos
